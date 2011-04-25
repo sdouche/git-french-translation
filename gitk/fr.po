@@ -1,0 +1,1327 @@
+# French translation of the gitk package
+# Copyright (C) 2005-2008 Paul Mackerras.  All rights reserved.
+# This file is distributed under the same license as the gitk package.
+# Translators:
+# Emmanuel Trillaud <etrillaud@gmail.com>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gitk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-25 03:33+0200\n"
+"PO-Revision-Date: 2009-11-19 22:13+0100\n"
+"Last-Translator: Emmanuel Trillaud <etrillaud@gmail.com>\n"
+"Language-Team: git@vger.kernel.org\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: gitk:115
+msgid "Couldn't get list of unmerged files:"
+msgstr "Impossible de récupérer la liste des fichiers non fusionnés :"
+
+#: gitk:185 gitk:2267
+msgid "Color words"
+msgstr ""
+
+#: gitk:190 gitk:2267 gitk:7803 gitk:7836
+msgid "Markup words"
+msgstr ""
+
+#: gitk:287
+msgid "Error parsing revisions:"
+msgstr "Erreur lors du parcours des révisions :"
+
+#: gitk:343
+msgid "Error executing --argscmd command:"
+msgstr "Erreur à l'exécution de la commande --argscmd :"
+
+#: gitk:356
+msgid "No files selected: --merge specified but no files are unmerged."
+msgstr ""
+"Aucun fichier sélectionné : --merge précisé, mais tous les fichiers sont "
+"fusionnés."
+
+# FIXME : améliorer la traduction de 'file limite'
+#: gitk:359
+#, fuzzy
+msgid ""
+"No files selected: --merge specified but no unmerged files are within file "
+"limit."
+msgstr ""
+"Aucun fichier sélectionné : --merge précisé mais aucun fichier non fusionné "
+"n'est dans la limite des fichiers."
+
+#: gitk:381 gitk:529
+msgid "Error executing git log:"
+msgstr "Erreur à l'exécution de git log :"
+
+#: gitk:399 gitk:545
+msgid "Reading"
+msgstr "Lecture en cours"
+
+#: gitk:459 gitk:4297
+msgid "Reading commits..."
+msgstr "Lecture des commits..."
+
+#: gitk:462 gitk:1593 gitk:4300
+msgid "No commits selected"
+msgstr "Aucun commit sélectionné"
+
+#: gitk:1469
+msgid "Can't parse git log output:"
+msgstr "Impossible de lire la sortie de git log :"
+
+#: gitk:1689
+msgid "No commit information available"
+msgstr "Aucune information disponible sur le commit"
+
+#: gitk:1831
+msgid "mc"
+msgstr ""
+
+#: gitk:1866 gitk:4090 gitk:9128 gitk:10668 gitk:10879
+msgid "OK"
+msgstr "OK"
+
+#: gitk:1868 gitk:4092 gitk:8718 gitk:8797 gitk:8912 gitk:8961 gitk:9130
+#: gitk:10669 gitk:10880
+msgid "Cancel"
+msgstr "Annuler"
+
+#: gitk:1995
+msgid "Update"
+msgstr "Mise à jour"
+
+#: gitk:1996
+msgid "Reload"
+msgstr "Recharger"
+
+#: gitk:1997
+msgid "Reread references"
+msgstr "Relire les références"
+
+#: gitk:1998
+msgid "List references"
+msgstr "Lister les références"
+
+#: gitk:2000
+msgid "Start git gui"
+msgstr "Démarrer git gui"
+
+#: gitk:2002
+msgid "Quit"
+msgstr "Quitter"
+
+#: gitk:1994
+msgid "File"
+msgstr "Fichier"
+
+#: gitk:2006
+msgid "Preferences"
+msgstr "Préférences"
+
+#: gitk:2005
+msgid "Edit"
+msgstr "Éditer"
+
+#: gitk:2010
+msgid "New view..."
+msgstr "Nouvelle vue..."
+
+#: gitk:2011
+msgid "Edit view..."
+msgstr "Éditer la vue..."
+
+#: gitk:2012
+msgid "Delete view"
+msgstr "Supprimer la vue"
+
+#: gitk:2014
+msgid "All files"
+msgstr "Tous les fichiers"
+
+#: gitk:2009 gitk:3843
+msgid "View"
+msgstr "Vue"
+
+#: gitk:2019 gitk:2029 gitk:2813
+msgid "About gitk"
+msgstr "À propos de gitk"
+
+#: gitk:2020 gitk:2034
+msgid "Key bindings"
+msgstr "Raccourcis clavier"
+
+#: gitk:2018 gitk:2033
+msgid "Help"
+msgstr "Aide"
+
+#: gitk:2111 gitk:8193
+msgid "SHA1 ID:"
+msgstr "Id SHA1 :"
+
+#: gitk:2142
+msgid "Row"
+msgstr "Colonne"
+
+#: gitk:2180
+msgid "Find"
+msgstr "Recherche"
+
+#: gitk:2181
+msgid "next"
+msgstr "suivant"
+
+#: gitk:2182
+msgid "prev"
+msgstr "précédent"
+
+#: gitk:2183
+msgid "commit"
+msgstr "commit"
+
+#: gitk:2186 gitk:2188 gitk:4458 gitk:4481 gitk:4505 gitk:6447 gitk:6519
+#: gitk:6603
+msgid "containing:"
+msgstr "contient :"
+
+#: gitk:2189 gitk:3324 gitk:3329 gitk:4533
+msgid "touching paths:"
+msgstr "chemins modifiés :"
+
+#: gitk:2190 gitk:4538
+msgid "adding/removing string:"
+msgstr "ajoute/supprime la chaîne :"
+
+#: gitk:2199 gitk:2201
+msgid "Exact"
+msgstr "Exact"
+
+#: gitk:2201 gitk:4613 gitk:6415
+msgid "IgnCase"
+msgstr "Ignorer la casse"
+
+#: gitk:2201 gitk:4507 gitk:4611 gitk:6411
+msgid "Regexp"
+msgstr "Expression régulière"
+
+#: gitk:2203 gitk:2204 gitk:4632 gitk:4662 gitk:4669 gitk:6539 gitk:6607
+msgid "All fields"
+msgstr "Tous les champs"
+
+#: gitk:2204 gitk:4630 gitk:4662 gitk:6478
+msgid "Headline"
+msgstr "Surligner"
+
+#: gitk:2205 gitk:4630 gitk:6478 gitk:6607 gitk:7040
+msgid "Comments"
+msgstr "Commentaires"
+
+#: gitk:2205 gitk:4630 gitk:4634 gitk:4669 gitk:6478 gitk:6975 gitk:8368
+#: gitk:8383
+msgid "Author"
+msgstr "Auteur"
+
+#: gitk:2205 gitk:4630 gitk:6478 gitk:6977
+msgid "Committer"
+msgstr "Auteur du commit"
+
+#: gitk:2236
+msgid "Search"
+msgstr "Rechercher"
+
+#: gitk:2244
+msgid "Diff"
+msgstr "Diff"
+
+#: gitk:2246
+msgid "Old version"
+msgstr "Ancienne version"
+
+#: gitk:2248
+msgid "New version"
+msgstr "Nouvelle version"
+
+#: gitk:2250
+msgid "Lines of context"
+msgstr "Lignes de contexte"
+
+#: gitk:2260
+msgid "Ignore space change"
+msgstr "Ignorer les modifications d'espace"
+
+#: gitk:2264 gitk:2266 gitk:7561 gitk:7789
+msgid "Line diff"
+msgstr ""
+
+#: gitk:2328
+msgid "Patch"
+msgstr "Patch"
+
+#: gitk:2330
+msgid "Tree"
+msgstr "Arbre"
+
+#: gitk:2488 gitk:2505
+msgid "Diff this -> selected"
+msgstr "Diff entre ceci et la sélection"
+
+#: gitk:2489 gitk:2506
+msgid "Diff selected -> this"
+msgstr "Diff entre sélection et ceci"
+
+#: gitk:2490 gitk:2507
+msgid "Make patch"
+msgstr "Créer patch"
+
+#: gitk:2491 gitk:8776
+msgid "Create tag"
+msgstr "Créer tag"
+
+#: gitk:2492 gitk:8892
+msgid "Write commit to file"
+msgstr "Écrire le commit dans un fichier"
+
+#: gitk:2493 gitk:8949
+msgid "Create new branch"
+msgstr "Créer une nouvelle branche"
+
+#: gitk:2494
+msgid "Cherry-pick this commit"
+msgstr "Cueillir (cherry-pick) ce commit"
+
+#: gitk:2495
+msgid "Reset HEAD branch to here"
+msgstr "Réinitialiser la branche HEAD vers cet état"
+
+#: gitk:2496
+msgid "Mark this commit"
+msgstr "Marquer ce commit"
+
+#: gitk:2497
+msgid "Return to mark"
+msgstr "Retourner à la marque"
+
+#: gitk:2498
+msgid "Find descendant of this and mark"
+msgstr "Chercher le descendant de ceci et le marquer"
+
+#: gitk:2499
+msgid "Compare with marked commit"
+msgstr "Comparer avec le commit marqué"
+
+#: gitk:2513
+msgid "Check out this branch"
+msgstr "Récupérer cette branche"
+
+#: gitk:2514
+msgid "Remove this branch"
+msgstr "Supprimer cette branche"
+
+#: gitk:2521
+msgid "Highlight this too"
+msgstr "Surligner également ceci"
+
+#: gitk:2522
+msgid "Highlight this only"
+msgstr "Surligner seulement ceci"
+
+#: gitk:2523
+msgid "External diff"
+msgstr "Diff externe"
+
+#: gitk:2524
+msgid "Blame parent commit"
+msgstr "Blâmer le commit parent"
+
+#: gitk:2531
+msgid "Show origin of this line"
+msgstr "Montrer l'origine de cette ligne"
+
+#: gitk:2532
+msgid "Run git gui blame on this line"
+msgstr "Exécuter git gui blame sur cette ligne"
+
+#: gitk:2815
+#, fuzzy
+msgid ""
+"\n"
+"Gitk - a commit viewer for git\n"
+"\n"
+"Copyright ©9 2005-2010 Paul Mackerras\n"
+"\n"
+"Use and redistribute under the terms of the GNU General Public License"
+msgstr ""
+"\n"
+"Gitk - visualisateur de commit pour git\n"
+"\n"
+"Copyright \\u00a9 2005-2010 Paul Mackerras\n"
+"\n"
+"Utilisation et redistribution soumises aux termes de la GNU General Public "
+"License"
+
+#: gitk:2823 gitk:2888 gitk:9314
+msgid "Close"
+msgstr "Fermer"
+
+#: gitk:2844
+msgid "Gitk key bindings"
+msgstr "Raccourcis clavier de Gitk"
+
+#: gitk:2847
+msgid "Gitk key bindings:"
+msgstr "Raccourcis clavier de Gitk :"
+
+#: gitk:2849
+#, tcl-format
+msgid "<%s-Q>\t\tQuit"
+msgstr "<%s-Q>\t\tQuitter"
+
+#: gitk:2850
+#, fuzzy, tcl-format
+msgid "<%s-W>\t\tClose window"
+msgstr "<%s-F>\t\tRechercher"
+
+#: gitk:2851
+msgid "<Home>\t\tMove to first commit"
+msgstr "<Début>\t\tAller au premier commit"
+
+#: gitk:2852
+msgid "<End>\t\tMove to last commit"
+msgstr "<Fin>\t\tAller au dernier commit"
+
+#: gitk:2853
+msgid "<Up>, p, i\tMove up one commit"
+msgstr "<Haut>, p, i\t Aller au commit suivant"
+
+#: gitk:2854
+msgid "<Down>, n, k\tMove down one commit"
+msgstr "<Bas>, n, k\t Aller au commit précédent"
+
+#: gitk:2855
+msgid "<Left>, z, j\tGo back in history list"
+msgstr "<Gauche>, z, j\tReculer dans l'historique"
+
+#: gitk:2856
+msgid "<Right>, x, l\tGo forward in history list"
+msgstr "<Droite>, x, l\tAvancer dans l'historique"
+
+#: gitk:2857
+msgid "<PageUp>\tMove up one page in commit list"
+msgstr "<PageUp>\tMonter d'une page dans la liste des commits"
+
+#: gitk:2858
+msgid "<PageDown>\tMove down one page in commit list"
+msgstr "<PageDown>\tDescendre d'une page dans la liste des commits"
+
+#: gitk:2859
+#, tcl-format
+msgid "<%s-Home>\tScroll to top of commit list"
+msgstr "<%s-Début>\tAller en haut de la liste des commits"
+
+#: gitk:2860
+#, tcl-format
+msgid "<%s-End>\tScroll to bottom of commit list"
+msgstr "<%s-End>\tAller en bas de la liste des commits"
+
+#: gitk:2861
+#, tcl-format
+msgid "<%s-Up>\tScroll commit list up one line"
+msgstr "<%s-Up>\tMonter d'une ligne dans la liste des commits"
+
+#: gitk:2862
+#, tcl-format
+msgid "<%s-Down>\tScroll commit list down one line"
+msgstr "<%s-Down>\tDescendre d'une ligne dans la liste des commits"
+
+#: gitk:2863
+#, tcl-format
+msgid "<%s-PageUp>\tScroll commit list up one page"
+msgstr "<%s-PageUp>\tMonter d'une page dans la liste des commits"
+
+#: gitk:2864
+#, tcl-format
+msgid "<%s-PageDown>\tScroll commit list down one page"
+msgstr "<%s-PageDown>\tDescendre d'une page dans la liste des commits"
+
+#: gitk:2865
+msgid "<Shift-Up>\tFind backwards (upwards, later commits)"
+msgstr ""
+"<Shift-Up>\tRecherche en arrière (vers l'avant, commits les plus anciens)"
+
+#: gitk:2866
+msgid "<Shift-Down>\tFind forwards (downwards, earlier commits)"
+msgstr ""
+"<Shift-Down>\tRecherche en avant (vers l'arrière, commit les plus récents)"
+
+#: gitk:2867
+msgid "<Delete>, b\tScroll diff view up one page"
+msgstr "<Supprimer>, b\tMonter d'une page dans la vue des diff"
+
+#: gitk:2868
+msgid "<Backspace>\tScroll diff view up one page"
+msgstr "<Backspace>\tMonter d'une page dans la vue des diff"
+
+#: gitk:2869
+msgid "<Space>\t\tScroll diff view down one page"
+msgstr "<Espace>\t\tDescendre d'une page dans la vue des diff"
+
+#: gitk:2870
+msgid "u\t\tScroll diff view up 18 lines"
+msgstr "u\t\tMonter de 18 lignes dans la vue des diff"
+
+#: gitk:2871
+msgid "d\t\tScroll diff view down 18 lines"
+msgstr "d\t\tDescendre de 18 lignes dans la vue des diff"
+
+#: gitk:2872
+#, tcl-format
+msgid "<%s-F>\t\tFind"
+msgstr "<%s-F>\t\tRechercher"
+
+#: gitk:2873
+#, tcl-format
+msgid "<%s-G>\t\tMove to next find hit"
+msgstr "<%s-G>\t\tAller au résultat de recherche suivant"
+
+#: gitk:2874
+msgid "<Return>\tMove to next find hit"
+msgstr "<Return>\t\tAller au résultat de recherche suivant"
+
+#: gitk:2875
+msgid "/\t\tFocus the search box"
+msgstr "/\t\tFocus sur la zone de recherche"
+
+#: gitk:2876
+msgid "?\t\tMove to previous find hit"
+msgstr "?\t\tAller au résultat de recherche précédent"
+
+#: gitk:2877
+msgid "f\t\tScroll diff view to next file"
+msgstr "f\t\tAller au prochain fichier dans la vue des diff"
+
+#: gitk:2878
+#, tcl-format
+msgid "<%s-S>\t\tSearch for next hit in diff view"
+msgstr "<%s-S>\t\tAller au résultat suivant dans la vue des diff"
+
+#: gitk:2879
+#, tcl-format
+msgid "<%s-R>\t\tSearch for previous hit in diff view"
+msgstr "<%s-R>\t\tAller au résultat précédent dans la vue des diff"
+
+#: gitk:2880
+#, tcl-format
+msgid "<%s-KP+>\tIncrease font size"
+msgstr "<%s-KP+>\tAugmenter la taille de la police"
+
+#: gitk:2881
+#, tcl-format
+msgid "<%s-plus>\tIncrease font size"
+msgstr "<%s-plus>\tAugmenter la taille de la police"
+
+#: gitk:2882
+#, tcl-format
+msgid "<%s-KP->\tDecrease font size"
+msgstr "<%s-KP->\tDiminuer la taille de la police"
+
+#: gitk:2883
+#, tcl-format
+msgid "<%s-minus>\tDecrease font size"
+msgstr "<%s-minus>\tDiminuer la taille de la police"
+
+#: gitk:2884
+msgid "<F5>\t\tUpdate"
+msgstr "<F5>\t\tMise à jour"
+
+#: gitk:3339 gitk:3348
+#, tcl-format
+msgid "Error creating temporary directory %s:"
+msgstr "Erreur lors de la création du répertoire temporaire %s :"
+
+#: gitk:3361
+#, tcl-format
+msgid "Error getting \"%s\" from %s:"
+msgstr "Erreur en obtenant \"%s\" de %s:"
+
+#: gitk:3424
+msgid "command failed:"
+msgstr "échec de la commande :"
+
+#: gitk:3573
+msgid "No such commit"
+msgstr "Commit inexistant"
+
+#: gitk:3587
+msgid "git gui blame: command failed:"
+msgstr "git gui blame : échec de la commande :"
+
+#: gitk:3618
+#, tcl-format
+msgid "Couldn't read merge head: %s"
+msgstr "Impossible de lire le head de la fusion : %s"
+
+#: gitk:3626
+#, tcl-format
+msgid "Error reading index: %s"
+msgstr "Erreur à la lecture de l'index : %s"
+
+#: gitk:3651
+#, tcl-format
+msgid "Couldn't start git blame: %s"
+msgstr "Impossible de démarrer git blame : %s"
+
+#: gitk:3654 gitk:6446
+msgid "Searching"
+msgstr "Recherche en cours"
+
+#: gitk:3686
+#, tcl-format
+msgid "Error running git blame: %s"
+msgstr "Erreur à l'exécution de git blame : %s"
+
+#: gitk:3714
+#, tcl-format
+msgid "That line comes from commit %s,  which is not in this view"
+msgstr "Cette ligne est issue du commit %s, qui n'est pas dans cette vue"
+
+#: gitk:3728
+msgid "External diff viewer failed:"
+msgstr "Échec de l'outil externe de visualisation des diff"
+
+#: gitk:3846
+msgid "Gitk view definition"
+msgstr "Définition des vues de Gitk"
+
+#: gitk:3850
+msgid "Remember this view"
+msgstr "Se souvenir de cette vue"
+
+#: gitk:3851
+msgid "References (space separated list):"
+msgstr "Références (liste d'éléments séparés par des espaces) :"
+
+#: gitk:3852
+msgid "Branches & tags:"
+msgstr "Branches & tags :"
+
+#: gitk:3853
+msgid "All refs"
+msgstr "Toutes les références"
+
+#: gitk:3854
+msgid "All (local) branches"
+msgstr "Toutes les branches (locales)"
+
+#: gitk:3855
+msgid "All tags"
+msgstr "Tous les tags"
+
+#: gitk:3856
+msgid "All remote-tracking branches"
+msgstr "Toutes les branches de suivi à distance"
+
+#: gitk:3857
+msgid "Commit Info (regular expressions):"
+msgstr "Info sur les commits (expressions régulières) :"
+
+#: gitk:3858
+msgid "Author:"
+msgstr "Auteur :"
+
+#: gitk:3859
+msgid "Committer:"
+msgstr "Commiteur :"
+
+#: gitk:3860
+msgid "Commit Message:"
+msgstr "Message de commit :"
+
+#: gitk:3861
+msgid "Matches all Commit Info criteria"
+msgstr "Correspond à tous les critères d'Info sur les commits"
+
+#: gitk:3862
+msgid "Changes to Files:"
+msgstr "Changements des fichiers :"
+
+#: gitk:3863
+msgid "Fixed String"
+msgstr "Chaîne Figée"
+
+#: gitk:3864
+msgid "Regular Expression"
+msgstr "Expression Régulière"
+
+#: gitk:3865
+msgid "Search string:"
+msgstr "Recherche de la chaîne :"
+
+#: gitk:3866
+msgid ""
+"Commit Dates (\"2 weeks ago\", \"2009-03-17 15:27:38\", \"March 17, 2009 "
+"15:27:38\"):"
+msgstr ""
+"Dates des commits (\"2 weeks ago\", \"2009-03-17 15:27:38\", \"March 17, "
+"2009 15:27:38\") :"
+
+#: gitk:3867
+msgid "Since:"
+msgstr "De :"
+
+#: gitk:3868
+msgid "Until:"
+msgstr "Jusqu'au :"
+
+#: gitk:3869
+msgid "Limit and/or skip a number of revisions (positive integer):"
+msgstr "Limiter et/ou sauter un certain nombre (entier positif) de révisions :"
+
+#: gitk:3870
+msgid "Number to show:"
+msgstr "Nombre à afficher :"
+
+#: gitk:3871
+msgid "Number to skip:"
+msgstr "Nombre à sauter :"
+
+#: gitk:3872
+msgid "Miscellaneous options:"
+msgstr "Options diverses :"
+
+#: gitk:3873
+msgid "Strictly sort by date"
+msgstr "Trier par date"
+
+# FIXME : traduction de "branch sides"
+#: gitk:3874
+#, fuzzy
+msgid "Mark branch sides"
+msgstr "Marquer les extrémités des branches"
+
+#: gitk:3875
+msgid "Limit to first parent"
+msgstr "Limiter au premier ancêtre"
+
+#: gitk:3876
+msgid "Simple history"
+msgstr "Historique simple"
+
+#: gitk:3877
+msgid "Additional arguments to git log:"
+msgstr "Arguments supplémentaires de git log :"
+
+#: gitk:3878
+msgid "Enter files and directories to include, one per line:"
+msgstr "Saisir les fichiers et répertoires à inclure, un par ligne :"
+
+#: gitk:3879
+msgid "Command to generate more commits to include:"
+msgstr "Commande pour générer plus de commits à inclure :"
+
+#: gitk:4003
+msgid "Gitk: edit view"
+msgstr "Gitk : éditer la vue"
+
+#: gitk:4011
+msgid "-- criteria for selecting revisions"
+msgstr "-- critère pour la sélection des révisions"
+
+#: gitk:4016
+#, fuzzy
+msgid "View Name"
+msgstr "Nom de la vue :"
+
+#: gitk:4091
+msgid "Apply (F5)"
+msgstr "Appliquer (F5)"
+
+#: gitk:4129
+msgid "Error in commit selection arguments:"
+msgstr "Erreur dans les arguments de sélection des commits :"
+
+#: gitk:4182 gitk:4234 gitk:4682 gitk:4696 gitk:5957 gitk:11615 gitk:11616
+msgid "None"
+msgstr "Aucun"
+
+#: gitk:4630 gitk:6478 gitk:8370 gitk:8385
+msgid "Date"
+msgstr "Date"
+
+#: gitk:4630 gitk:6478
+msgid "CDate"
+msgstr "CDate"
+
+#: gitk:4779 gitk:4784
+msgid "Descendant"
+msgstr "Descendant"
+
+#: gitk:4780
+msgid "Not descendant"
+msgstr "Pas un descendant"
+
+#: gitk:4787 gitk:4792
+msgid "Ancestor"
+msgstr "Ancêtre"
+
+#: gitk:4788
+msgid "Not ancestor"
+msgstr "Pas un ancêtre"
+
+#: gitk:5078
+msgid "Local changes checked in to index but not committed"
+msgstr "Modifications locales enregistrées dans l'index mais non commitées"
+
+#: gitk:5114
+msgid "Local uncommitted changes, not checked in to index"
+msgstr "Modifications locales non enregistrées dans l'index et non commitées"
+
+#: gitk:6796
+msgid "many"
+msgstr "nombreux"
+
+#: gitk:6979
+msgid "Tags:"
+msgstr "Tags :"
+
+#: gitk:6996 gitk:7002 gitk:8363
+msgid "Parent"
+msgstr "Parent"
+
+#: gitk:7007
+msgid "Child"
+msgstr "Enfant"
+
+#: gitk:7016
+msgid "Branch"
+msgstr "Branche"
+
+#: gitk:7019
+msgid "Follows"
+msgstr "Suit"
+
+#: gitk:7022
+msgid "Precedes"
+msgstr "Précède"
+
+#: gitk:7568
+#, tcl-format
+msgid "Error getting diffs: %s"
+msgstr "Erreur lors de la récupération des diff : %s"
+
+#: gitk:8191
+msgid "Goto:"
+msgstr "Aller à :"
+
+#: gitk:8212
+#, tcl-format
+msgid "Short SHA1 id %s is ambiguous"
+msgstr "Id SHA1 court %s est ambigu"
+
+#: gitk:8219
+#, tcl-format
+msgid "Revision %s is not known"
+msgstr "Id SHA1 %s est inconnu"
+
+#: gitk:8229
+#, tcl-format
+msgid "SHA1 id %s is not known"
+msgstr "Id SHA1 %s est inconnu"
+
+#: gitk:8231
+#, tcl-format
+msgid "Revision %s is not in the current view"
+msgstr "La révision %s n'est pas dans la vue courante"
+
+#: gitk:8373
+msgid "Children"
+msgstr "Enfants"
+
+#: gitk:8431
+#, tcl-format
+msgid "Reset %s branch to here"
+msgstr "Réinitialiser la branche %s vers cet état"
+
+#: gitk:8433
+msgid "Detached head: can't reset"
+msgstr "Head détaché : impossible de réinitialiser"
+
+#: gitk:8542 gitk:8548
+msgid "Skipping merge commit "
+msgstr "Éviter le commit de la fusion "
+
+#: gitk:8557 gitk:8562
+msgid "Error getting patch ID for "
+msgstr "Erreur à l'obtention de l'ID du patch pour "
+
+#: gitk:8558 gitk:8563
+msgid " - stopping\n"
+msgstr " - arrêt en cours\n"
+
+#: gitk:8568 gitk:8571 gitk:8579 gitk:8593 gitk:8602
+msgid "Commit "
+msgstr "Commit "
+
+#: gitk:8572
+msgid ""
+" is the same patch as\n"
+"       "
+msgstr ""
+"est le même patch que \n"
+"       "
+
+#: gitk:8580
+msgid ""
+" differs from\n"
+"       "
+msgstr ""
+" diffère de\n"
+"       "
+
+#: gitk:8582
+msgid ""
+"Diff of commits:\n"
+"\n"
+msgstr ""
+
+#: gitk:8594 gitk:8603
+#, tcl-format
+msgid " has %s children - stopping\n"
+msgstr "a %s enfants - arrêt en cours\n"
+
+#: gitk:8622
+#, fuzzy, tcl-format
+msgid "Error writing commit to file: %s"
+msgstr "Erreur à l'ecriture du commit :"
+
+#: gitk:8628
+#, fuzzy, tcl-format
+msgid "Error diffing commits: %s"
+msgstr "Erreur à l'ecriture du commit :"
+
+#: gitk:8659
+msgid "Top"
+msgstr "Haut"
+
+#: gitk:8660
+msgid "From"
+msgstr "De"
+
+#: gitk:8665
+msgid "To"
+msgstr "À"
+
+#: gitk:8689
+msgid "Generate patch"
+msgstr "Générer le patch"
+
+#: gitk:8691
+msgid "From:"
+msgstr "De :"
+
+#: gitk:8700
+msgid "To:"
+msgstr "À :"
+
+#: gitk:8709
+msgid "Reverse"
+msgstr "Inverser"
+
+#: gitk:8711 gitk:8906
+msgid "Output file:"
+msgstr "Fichier de sortie :"
+
+#: gitk:8717
+msgid "Generate"
+msgstr "Générer"
+
+#: gitk:8755
+msgid "Error creating patch:"
+msgstr "Erreur à la création du patch :"
+
+#: gitk:8778 gitk:8894 gitk:8951
+msgid "ID:"
+msgstr "ID :"
+
+#: gitk:8787
+msgid "Tag name:"
+msgstr "Nom du Tag :"
+
+#: gitk:8790
+msgid "Tag message is optional"
+msgstr ""
+
+#: gitk:8792
+#, fuzzy
+msgid "Tag message:"
+msgstr "Nom du Tag :"
+
+#: gitk:8796 gitk:8960
+msgid "Create"
+msgstr "Créer"
+
+#: gitk:8814
+msgid "No tag name specified"
+msgstr "Aucun nom de tag spécifié"
+
+#: gitk:8818
+#, tcl-format
+msgid "Tag \"%s\" already exists"
+msgstr "Le tag \"%s\" existe déjà"
+
+#: gitk:8828
+msgid "Error creating tag:"
+msgstr "Erreur à la création du tag :"
+
+#: gitk:8903
+msgid "Command:"
+msgstr "Commande :"
+
+#: gitk:8911
+msgid "Write"
+msgstr "Écrire"
+
+#: gitk:8929
+msgid "Error writing commit:"
+msgstr "Erreur à l'ecriture du commit :"
+
+#: gitk:8956
+msgid "Name:"
+msgstr "Nom :"
+
+#: gitk:8979
+msgid "Please specify a name for the new branch"
+msgstr "Veuillez spécifier un nom pour la nouvelle branche"
+
+#: gitk:8984
+#, tcl-format
+msgid "Branch '%s' already exists. Overwrite?"
+msgstr "La branche '%s' existe déjà. Écraser?"
+
+#: gitk:9050
+#, tcl-format
+msgid "Commit %s is already included in branch %s -- really re-apply it?"
+msgstr ""
+"Le Commit %s est déjà inclus dans la branche %s -- le ré-appliquer malgré "
+"tout?"
+
+#: gitk:9055
+msgid "Cherry-picking"
+msgstr "Cueillir (Cherry-picking)"
+
+#: gitk:9064
+#, tcl-format
+msgid ""
+"Cherry-pick failed because of local changes to file '%s'.\n"
+"Please commit, reset or stash your changes and try again."
+msgstr ""
+"La cueillette (cherry-pick) a échouée à cause de modifications locales du "
+"fichier '%s'.\n"
+"Veuillez commiter, réinitialiser ou stasher vos changements et essayer de "
+"nouveau."
+
+#: gitk:9070
+msgid ""
+"Cherry-pick failed because of merge conflict.\n"
+"Do you wish to run git citool to resolve it?"
+msgstr ""
+"La cueillette (cherry-pick) a échouée à cause d'un conflit lors d'une "
+"fusion.\n"
+"Souhaitez-vous exécuter git citool pour le résoudre ?"
+
+#: gitk:9086
+msgid "No changes committed"
+msgstr "Aucun changement commité"
+
+#: gitk:9112
+msgid "Confirm reset"
+msgstr "Confirmer la réinitialisation"
+
+#: gitk:9114
+#, tcl-format
+msgid "Reset branch %s to %s?"
+msgstr "Réinitialiser la branche %s à %s?"
+
+#: gitk:9116
+msgid "Reset type:"
+msgstr "Type de réinitialisation :"
+
+#: gitk:9119
+msgid "Soft: Leave working tree and index untouched"
+msgstr "Douce : Laisse le répertoire de travail et l'index intacts"
+
+#: gitk:9122
+msgid "Mixed: Leave working tree untouched, reset index"
+msgstr ""
+"Hybride : Laisse le répertoire de travail dans son état courant, "
+"réinitialise l'index"
+
+#: gitk:9125
+msgid ""
+"Hard: Reset working tree and index\n"
+"(discard ALL local changes)"
+msgstr ""
+"Dure : Réinitialise le répertoire de travail et l'index\n"
+"(abandonne TOUS les changements locaux)"
+
+#: gitk:9142
+msgid "Resetting"
+msgstr "Réinitialisation"
+
+# Fixme: Récupération est-il vraiment une mauvaise traduction?
+#: gitk:9202
+#, fuzzy
+msgid "Checking out"
+msgstr "Récupération"
+
+#: gitk:9255
+msgid "Cannot delete the currently checked-out branch"
+msgstr "Impossible de supprimer la branche en cours"
+
+#: gitk:9261
+#, tcl-format
+msgid ""
+"The commits on branch %s aren't on any other branch.\n"
+"Really delete branch %s?"
+msgstr ""
+"Les commits de la branche %s ne sont dans aucune autre branche.\n"
+"Voulez-vous vraiment supprimer cette branche %s ?"
+
+#: gitk:9292
+#, tcl-format
+msgid "Tags and heads: %s"
+msgstr "Tags et heads : %s"
+
+#: gitk:9307
+msgid "Filter"
+msgstr "Filtrer"
+
+#: gitk:9602
+msgid ""
+"Error reading commit topology information; branch and preceding/following "
+"tag information will be incomplete."
+msgstr ""
+"Erreur à la lecture des informations sur la topologie des commits, les "
+"informations sur les branches et les tags précédents/suivants seront "
+"incomplètes."
+
+#: gitk:10588
+msgid "Tag"
+msgstr "Tag"
+
+#: gitk:10588
+msgid "Id"
+msgstr "Id"
+
+#: gitk:10637
+msgid "Gitk font chooser"
+msgstr "Sélecteur de police de Gitk"
+
+#: gitk:10654
+msgid "B"
+msgstr "B"
+
+#: gitk:10657
+msgid "I"
+msgstr "I"
+
+#: gitk:10775
+msgid "Gitk preferences"
+msgstr "Préférences de Gitk"
+
+#: gitk:10777
+msgid "Commit list display options"
+msgstr "Options d'affichage de la liste des commits"
+
+#: gitk:10780
+msgid "Maximum graph width (lines)"
+msgstr "Longueur maximum du graphe (lignes)"
+
+# FIXME : Traduction standard de "pane"?
+#: gitk:10783
+#, fuzzy, tcl-format
+msgid "Maximum graph width (% of pane)"
+msgstr "Longueur maximum du graphe (% du panneau)"
+
+#: gitk:10786
+msgid "Show local changes"
+msgstr "Montrer les changements locaux"
+
+#: gitk:10789
+#, fuzzy
+msgid "Auto-select SHA1 (length)"
+msgstr "Sélection auto. du SHA1"
+
+#: gitk:10793
+msgid "Hide remote refs"
+msgstr "Cacher les refs distantes"
+
+#: gitk:10797
+msgid "Diff display options"
+msgstr "Options d'affichage des diff"
+
+#: gitk:10799
+msgid "Tab spacing"
+msgstr "Taille des tabulations"
+
+#: gitk:10802
+msgid "Display nearby tags"
+msgstr "Afficher les tags les plus proches"
+
+#: gitk:10805
+msgid "Limit diffs to listed paths"
+msgstr "Limiter les différences aux chemins listés"
+
+#: gitk:10808
+msgid "Support per-file encodings"
+msgstr "Support pour un encodage des caractères par fichier"
+
+#: gitk:10814 gitk:10894
+msgid "External diff tool"
+msgstr "Outil diff externe"
+
+#: gitk:10815
+msgid "Choose..."
+msgstr "Choisir..."
+
+#: gitk:10820
+#, fuzzy
+msgid "General options"
+msgstr "Générer le patch"
+
+#: gitk:10823
+msgid "Use themed widgets"
+msgstr ""
+
+#: gitk:10825
+msgid "(change requires restart)"
+msgstr ""
+
+#: gitk:10827
+msgid "(currently unavailable)"
+msgstr ""
+
+#: gitk:10831
+msgid "Colors: press to choose"
+msgstr "Couleurs : cliquer pour choisir"
+
+#: gitk:10834
+msgid "Interface"
+msgstr ""
+
+#: gitk:10835
+#, fuzzy
+msgid "interface"
+msgstr "Police de l'interface utilisateur"
+
+#: gitk:10838
+msgid "Background"
+msgstr "Arrière-plan"
+
+#: gitk:10839 gitk:10869
+msgid "background"
+msgstr "arrière-plan"
+
+#: gitk:10842
+msgid "Foreground"
+msgstr "Premier plan"
+
+#: gitk:10843
+msgid "foreground"
+msgstr "premier plan"
+
+#: gitk:10846
+msgid "Diff: old lines"
+msgstr "Diff : anciennes lignes"
+
+#: gitk:10847
+msgid "diff old lines"
+msgstr "diff anciennes lignes"
+
+#: gitk:10851
+msgid "Diff: new lines"
+msgstr "Diff : nouvelles lignes"
+
+#: gitk:10852
+msgid "diff new lines"
+msgstr "diff nouvelles lignes"
+
+#: gitk:10856
+msgid "Diff: hunk header"
+msgstr "Diff : entête du hunk"
+
+#: gitk:10858
+msgid "diff hunk header"
+msgstr "diff : entête du hunk"
+
+#: gitk:10862
+msgid "Marked line bg"
+msgstr "Arrière-plan de la ligne marquée"
+
+#: gitk:10864
+msgid "marked line background"
+msgstr "Arrière-plan de la ligne marquée"
+
+#: gitk:10868
+msgid "Select bg"
+msgstr "Sélectionner l'arrière-plan"
+
+#: gitk:10872
+msgid "Fonts: press to choose"
+msgstr "Polices : cliquer pour choisir"
+
+#: gitk:10874
+msgid "Main font"
+msgstr "Police principale"
+
+#: gitk:10875
+msgid "Diff display font"
+msgstr "Police d'affichage des diff"
+
+#: gitk:10876
+msgid "User interface font"
+msgstr "Police de l'interface utilisateur"
+
+#: gitk:10904
+#, tcl-format
+msgid "Gitk: choose color for %s"
+msgstr "Gitk : choisir la couleur de %s"
+
+#: gitk:11509
+msgid "Cannot find a git repository here."
+msgstr "Impossible de trouver un dépôt git ici."
+
+#: gitk:11513
+#, tcl-format
+msgid "Cannot find the git directory \"%s\"."
+msgstr "Impossible de trouver le répertoire git \"%s\"."
+
+#: gitk:11560
+#, tcl-format
+msgid "Ambiguous argument '%s': both revision and filename"
+msgstr "Argument '%s' ambigu : à la fois une révision et un nom de fichier"
+
+#: gitk:11572
+msgid "Bad arguments to gitk:"
+msgstr "Arguments invalides pour gitk :"
+
+#: gitk:11668
+msgid "Command line"
+msgstr "Ligne de commande"
+
+#~ msgid "SHA1 ID: "
+#~ msgstr "ID SHA1 :"
+
+#~ msgid "- stopping\n"
+#~ msgstr "- arrêt en cours\n"
+
+#~ msgid ""
+#~ "Sorry, gitk cannot run with this version of Tcl/Tk.\n"
+#~ " Gitk requires at least Tcl/Tk 8.4."
+#~ msgstr ""
+#~ "Désolé, gitk ne peut être exécuté avec cette version de Tcl/Tk.\n"
+#~ " Gitk requiert Tcl/Tk version 8.4 ou supérieur."
