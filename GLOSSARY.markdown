@@ -55,6 +55,7 @@ Terms
 
 - checkout
   * mettre à disposition (draft)
+  * travailler avec (draft)
 
 - cherry-pick
   * cueillir (draft)
@@ -65,10 +66,12 @@ Terms
 
 - commit
   * (verbe) commiter (draft)
+  * (verbe) valider (draft)
   * (nom) révision (draft)
 
 - committer
   * auteur de commit (draft)
+  * auteur de révision (draft)
 
 - dangling
   * ballant (draft)
@@ -104,6 +107,7 @@ Terms
 
 - hook
   * accroche de script (draft)
+  * déclencheur de script (draft)
 
 - hunk
   * bloc (draft)
@@ -131,6 +135,7 @@ Terms
 - patch
   * patch (draft)
   * correction (draft)
+  * correctif (draft)
 
 - parent
   * parent (draft)
@@ -187,21 +192,27 @@ Terms
 
 - staged / unstaged
   * présent dans l'index / non-présent dans l'index (draft)
+  * présent dans l'index / absent de l'index (draft)
 
 - strategy
   * stratégie (draft)
 
 - switch
   * changer (draft)
+  * basculer (draft)
 
 - tag
   * tag (draft)
+  * (verbe) étiquetter (draft)
+  * (nom) étiquette (draft)
 
 - track / untrack
   * traquer / ne pas traquer (draft)
+  * suivre / ne pas suivre (draft)
 
 - tracked / untracked
   * traqué / non-traqué (draft)
+  * suivit / non-suivit (draft)
 
 - tree
   * arbre (draft)
