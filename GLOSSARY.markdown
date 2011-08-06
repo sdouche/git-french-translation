@@ -39,6 +39,7 @@ Terms
 
 - amend
   * modifier (draft)
+  * amender (draft)
 
 - author
   * auteur (draft)
@@ -46,9 +47,12 @@ Terms
 - bare
   * sans copie de travail (draft)
   * vide (draft)
+  * nu (draft)
 
 - blame
   * visualiser l'auteur de la dernière modification (draft)
+  * blâmer (draft)
+  * reprocher (draft)
 
 - branch
   * branche (draft)
@@ -56,6 +60,7 @@ Terms
 - checkout
   * mettre à disposition (draft)
   * travailler avec (draft)
+  * récupérer (draft)
 
 - cherry-pick
   * cueillir (draft)
@@ -72,29 +77,37 @@ Terms
 - committer
   * auteur de commit (draft)
   * auteur de révision (draft)
+  * intermédiaire (draft)
+  * mandataire (draft)
 
 - dangling
   * ballant (draft)
   * flottant (draft)
+  * perdu (draft)
 
 - deprecated
   * déprécié (draft)
+  * obsolète (draft)
 
 - detached head
-  * tête détaché (draft)
+  * tête détachée (draft)
+  * branche morte (draft)
 
 - email
   * courriel (draft)
   * email (draft)
+  * adresse (draft)
 
 - fast-forward
   * avance rapide (draft)
 
 - fetch
   * récuperer (draft)
+  * rapporter (draft)
 
 - handle / unhandle
   * prendre en charge / ? (draft)
+  * adopter / oublier (draft)
 
 - head
   * tête (draft)
@@ -111,12 +124,15 @@ Terms
 
 - hunk
   * bloc (draft)
+  * lot (draft)
 
 - index
   * index (draft)
+  * zone de transit (draft)
 
 - loose object
   * objet libre (draft)
+  * objet perdu (draft)
 
 - mainline
   * flux principal (draft)
@@ -124,6 +140,8 @@ Terms
 
 - merge / unmerge
   * fusionner / ? (draft)
+  * fusionner / scinder (draft)
+  * fusionner / dé-fusionner (draft)
 
 - merged / unmerged
   * fusionné / non-fusionné (draft)
@@ -136,6 +154,7 @@ Terms
   * patch (draft)
   * correction (draft)
   * correctif (draft)
+  * rustine (draft)
 
 - parent
   * parent (draft)
@@ -185,14 +204,18 @@ Terms
   * écraser (draft)
 
 - stash
-  * mettre de côté (draft)
+  * (v) mettre de côté (draft)
+  * (nom) étagère (draft)
+  * (nom) planque (draft)
 
 - stage / unstage
   * ajouter à l'index / supprimer de l'index (draft)
+  * placer en zone de transit / retirer de la zone de transit (draft)
 
 - staged / unstaged
   * présent dans l'index / non-présent dans l'index (draft)
   * présent dans l'index / absent de l'index (draft)
+  * en transit / hors transit (draft)
 
 - strategy
   * stratégie (draft)
@@ -205,6 +228,7 @@ Terms
   * tag (draft)
   * (verbe) étiquetter (draft)
   * (nom) étiquette (draft)
+  * repère (draft)
 
 - track / untrack
   * traquer / ne pas traquer (draft)
@@ -213,6 +237,7 @@ Terms
 - tracked / untracked
   * traqué / non-traqué (draft)
   * suivit / non-suivit (draft)
+  * suivi / non suivi (draft)
 
 - tree
   * arbre (draft)
@@ -222,6 +247,7 @@ Terms
 
 - upstream
   * référence amont (draft)
+  * amont (draft)
 
 - working directory
   * répertoire de travail (draft)
