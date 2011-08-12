@@ -172,6 +172,10 @@ Terms
 - prune
   * élaguer (draft)
 
+- rebase
+  * rempoter (draft)
+  * replanter (draft)
+
 - reference
   * référence (draft)
 
